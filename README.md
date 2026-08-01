@@ -29,21 +29,51 @@ It is especially useful for Workflows that use Wildcards, dynamic prompts, and m
 - Keeps separate galleries for separate node instances, as long as each node has a unique `gallery_id`.
 
 ## Installation
-1. Copy the folder `ComfyUI-Persistent-Save-Image` into:
 
-   ```text
-   ComfyUI/custom_nodes/
-   ```
+### Git
+Open a terminal inside the ComfyUI `custom_nodes` directory and clone the repository:
 
-2. Restart ComfyUI completely.
-3. Hard-refresh the browser once:
+```bash
+cd ComfyUI/custom_nodes
+git clone https://github.com/VictorDmAlves/comfyui-persistent-save-image
+```
+
+### ZIP
+1. Download the repository as a ZIP file.
+2. Extract it into `ComfyUI/custom_nodes/`.
+3. Make sure the final structure is not nested twice.
+
+Correct:
+
+```text
+ComfyUI/
+└── custom_nodes/
+    └── comfyui-persistent-save-image/
+        ├── __init__.py
+        ├── config.py
+		├── gallery_store.py
+		├── persistent_save_image.py
+		├── LICENSE
+		├── README.md
+		├── __pycache__
+		├── images/
+        └── web/
+```
+
+4. Restart ComfyUI completely.
+5. Hard-refresh the browser once:
 
    ```text
    Ctrl+F5
    ```
 
-4. Add **Persistent Save Image** from the `image` category.
-5. Connect it exactly as you would connect ComfyUI's native **Save Image** node.
+The node is available at:
+
+```text
+image → Persistent Save Image
+```
+
+Connect it exactly as you would connect ComfyUI's native **Save Image** node.
 
 No additional Python packages are required.
 
