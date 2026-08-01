@@ -6,7 +6,6 @@
 ![Save Image Screenshot](./images/main.png)
 </div>
 
-# ComfyUI Persistent Save Image
 **Persistent Save Image** behaves like ComfyUI's native **Save Image** node, but its preview keeps a persistent gallery of the most recently generated images.
 
 It is especially useful for Workflows that use Wildcards, dynamic prompts, and multiple queued executions with `batch_size = 1`. In that setup, every queued prompt can receive a different seed while the node still displays the latest results together in one gallery.
