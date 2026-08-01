@@ -59,12 +59,7 @@ ComfyUI/
         └── web/
 ```
 
-4. Restart ComfyUI completely.
-5. Hard-refresh the browser once:
-
-   ```text
-   Ctrl+F5
-   ```
+Restart ComfyUI completely and hard-refresh the browser once.
 
 The node is available at:
 
