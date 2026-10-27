@@ -10,6 +10,11 @@
 
 It is especially useful for Workflows that use Wildcards, dynamic prompts, and multiple queued executions with `batch_size = 1`. In that setup, every queued prompt can receive a different seed while the node still displays the latest results together in one gallery.
 
+## Latest release
+### 1.0
+Added
+- Initial commit
+
 ## Features
 - Saves PNG files through ComfyUI's native `SaveImage` implementation.
 - Supports both:
