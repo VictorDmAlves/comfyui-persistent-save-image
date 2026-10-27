@@ -261,17 +261,5 @@ The browser may still be displaying cached thumbnails. Reload the page or click 
 - A corrupt or missing manifest does not prevent image generation.
 - The frontend periodically refreshes active Persistent Save Image nodes and also refreshes them when the browser regains focus or becomes visible again.
 
-## Contributing
-Bug reports and pull requests are welcome. When reporting a problem, please include:
-- ComfyUI version or commit
-- Persistent Save Image version or commit
-- Operating system
-- Browser and browser version
-- Whether ComfyUI Nodes 2.0 is enabled
-- Relevant terminal and browser console error output
-- Clear steps to reproduce the issue
-- Whether the issue occurs with batch generation, queued prompts, or both
-- Whether the gallery was loaded from a saved workflow or from PNG metadata
-
 ## License
 See [LICENSE](LICENSE).
